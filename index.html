@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Choose Your Own Adventure!</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Shadows+Into+Light" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <!-- SECTION 1 starts -->
+  <div class="section" id="section1">
+    <h1>The world is your oyster...</h1>
+    <p id="yet">And yet you're <a href="" id="here">here</a></p>
+    <div class="map hidden"></div>
+    <p class="hidden special">There's so much to explore . . . why wait?</p>
+    <ul class="nav hidden">
+      <li><a href="#section2">Find my next adventure!</a></li>
+    </ul>
+  </div>
+  <!-- SECTION 1 ends -->
+  <!-- SECTION 2 starts -->
+  <div class="section" id="section2">
+    <h2>Step 1</h2>
+    <h1>I'd like to travel with:</h1>
+    <ul class="nav">
+      <li><a href="#section3">my partner</a></li>
+      <li><a href="#section3">a group of friends</a></li>
+      <li><a href="#section3">my family</a></li>
+      <li><a href="#section3">me, myself, and I</a></li>
+    </ul>
+  </div>
+  <!-- SECTION 2 ends -->
+  <!-- SECTION 3 starts -->
+  <div class="section" id="section3">
+    <h2>Step 2</h2>
+    <h1>I could get away for:</h1>
+    <ul class="nav">
+      <li><a href="#section4" id="short">1-3 days</a></li>
+      <li><a href="#section4" id="medium">4-7 days</a></li>
+      <li><a href="#section4" id="long">8-14 days</a></li>
+      <li><a href="#section4" id="veryLong">15+ days</a></li>
+    </ul>
+  </div>
+  <!-- SECTION 3 ends -->
+  <!-- SECTION 4 starts -->
+  <div class="section" id="section4">
+    <h2>Step 3</h2>
+    <h1>For this trip my price range is about:</h1>
+    <ul class="nav">
+      <li><a href="#section5" id="cheaper">$</a></li>
+      <li><a href="#section5" id="average">$$</a></li>
+      <li><a href="#section5" id="expensive">$$$</a></li>
+    </ul>
+  </div>
+  <!-- SECTION 4 ends -->
+  <!-- SECTION 5 starts -->
+  <div class="section" id="section5">
+    <h2>Step 4</h2>
+    <h1>I mostly feel like:</h1>
+    <ul class="nav">
+      <li><a href="#section6" id="beach">Relaxing on a beach</a></li>
+      <li><a href="#section6" id="cruise">Going on a cruise</a></li>
+      <li><a href="#section6" id="history">Exploring a country with rich history</a></li>
+      <li><a href="#section6" id="hiking">Going on a hike</a></li>
+      <li><a href="#section6" id="wildlife">Witnessing wildlife</a></li>
+      <li><a href="#section6" id="thrills">Going thrill-seeking</a></li>
+      <li><a href="#section6" id="offroad">Venturing off the beaten track</a></li>
+    </ul>
+  </div>
+  <!-- SECTION 5 ends -->
+  <!-- SECTION 6 starts -->
+  <div class="section" id="section6">
+    <h2>Step 5</h2>
+    <h1>Where should I go on vacation?</h1>
+    <div class="globe"></div>
+    <ul class="nav">
+      <li><a href="#section7">Tell me!</a></li>
+    </ul>
+  </div>
+  <!-- SECTION 6 ends -->
+  <!-- SECTION 7 starts -->
+  <div class="section" id="section7">
+    <div class="data"></div>
+    <!-- <h2>Zimbabwe 🇿🇼</h2>
+    <img src="images/zimbabwe.jpg" alt="Beautiful sunny photo of Victoria Falls">
+    <audio source src="audio/zimbabwe.ogg" type="audio/ogg" controls> -->
+      <!-- <source src="audio/zimbabwe.mp3" type="audio/mpeg" controls> -->
+    <!-- </audio>
+    <p>A world of wonders</p> -->
+    <!-- <h4>South Africa</h4>
+    <img src="images/southafrica.jpg" alt="Aerial view of Cape Town">
+    <p>Inspiring new ways</p>
+    <h4>Tanzania</h4>
+    <img src="images/tanzania.jpg" alt="Giraffe standing in front of a bunch of trees, with Mount Kilimanjaro in the background">
+    <p>The soul of Africa</p>
+    <h4>Kenya</h4>
+    <img src="images/kenya.jpg" alt="Herd of wildebeest grazing near a tree, with a stunning sunset in the background">
+    <p>Magical Kenya</p>
+    <h4>Botswana</h4>
+    <img src="images/botswana.jpg" alt="Eco Mombo Lodge with an elephant in the courtyard">
+    <p>An unspoiled land of timeless beauty</p> -->
+    <a href="#section1">Search Again</a>
+  </div>
+  <!-- SECTION 7 ends -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7P7110dKNhldVZV52CyAo37rTJsLSCbI" type="text/javascript"></script>
+  <script src="countryDatabase.js"></script>
+  <script src="scripts.js"></script>
+  <script src="snazzymaps.js"></script>
+</body>
+</html>
